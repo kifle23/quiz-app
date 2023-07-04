@@ -24,10 +24,10 @@ namespace QuizAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Participant>>> GetParticipants()
         {
-          if (_context.Participants == null)
-          {
-              return NotFound();
-          }
+            if (_context.Participants == null)
+            {
+                return NotFound();
+            }
             return await _context.Participants.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace QuizAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Participant>> GetParticipant(int id)
         {
-          if (_context.Participants == null)
-          {
-              return NotFound();
-          }
+            if (_context.Participants == null)
+            {
+                return NotFound();
+            }
             var participant = await _context.Participants.FindAsync(id);
 
             if (participant == null)
@@ -85,10 +85,10 @@ namespace QuizAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Participant>> PostParticipant(Participant participant)
         {
-          if (_context.Participants == null)
-          {
-              return Problem("Entity set 'QuizDbContext.Participants'  is null.");
-          }
+            if (_context.Participants == null)
+            {
+                return Problem("Entity set 'QuizDbContext.Participants'  is null.");
+            }
             var temp = _context.Participants
                 .Where(x => x.Name == participant.Name
                 && x.Email == participant.Email)
