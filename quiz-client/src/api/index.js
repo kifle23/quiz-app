@@ -4,7 +4,7 @@ export const BASE_URL = 'http://localhost:5201/';
 
 export const ENDPOINTS = {
     participant: 'participants',
-    question: 'question',
+    question: 'questions',
     getAnswers: 'question/getanswers'
 }
 
