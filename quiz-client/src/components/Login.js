@@ -23,8 +23,8 @@ export default function Login() {
     setErrors,
     handleInputChange } = useForm(getFreshModel);
 
-    useEffect(() => {
-      resetContext()
+  useEffect(() => {
+    resetContext()
   }, [])
 
   const login = e => {
@@ -61,7 +61,7 @@ export default function Login() {
               width: '90%'
             }
           }}>
-            <form noValidate autoComplete='off' onSubmit={login}>
+            <form noValidate onSubmit={login}>
               <TextField label='Email' name='email' value={values.email} onChange={handleInputChange} variant='outlined' {...(errors.email && { error: true, helperText: errors.email })} />
               <TextField label='Name' name='name' value={values.name} onChange={handleInputChange} variant='outlined' {...(errors.name && { error: true, helperText: errors.name })} />
               <Button type='submit' variant='contained' size='large' sx={{ m: 1, width: '90%' }}>Start</Button>
