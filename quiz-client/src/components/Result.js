@@ -6,6 +6,7 @@ import { createAPIEndpoint, ENDPOINTS } from '../api'
 import { getFormatedTime } from '../helper';
 import useStateContext from '../hooks/useStateContext'
 import { green } from '@mui/material/colors';
+import Answer from './Answer';
 
 export default function Result() {
   const { context, setContext } = useStateContext()
@@ -109,6 +110,7 @@ export default function Result() {
           image="./result.png"
         />
       </Card>
+      <Answer qnAnswers={qnAnswers} />
     </>
   )
 }
