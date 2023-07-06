@@ -46,7 +46,7 @@
     <li>Material UI</li>
     <li>Asp.Net Core API</li>
     <li>Entity Framework Core</li>
-    <li>Microsoft® SQL Server® 2022 Express</li>
+    <li>PostgreSQL hosted on ElephantSql/If interested for Microsoft® SQL Server® 2022 Express check feature branch</li>
   </ul>
 </details>
 
@@ -172,6 +172,7 @@ Give a ⭐️ if you like this project!
 
 - [Microverse](https://www.microverse.org/).
 - [CodAffection](https://www.codaffection.com/)
+- [ElephantSql](https://api.elephantsql.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
