@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fjqApqUuaGR9uxd3qFHphO3YBfDQCkWPTMXWJJJrGZLZNEbyj2gT7aVdC0Rg9wZsrHbsPIYM2cYoDm5YTHoPyQ==",
+  "dgSpecHash": "hfaXbv+a+3FF+Bl/twgCJQ8ODMToBPylhF1Zx4rErJq0MBB0vEjsAUbpsDZnfNwfXYmsGK8DSOMsbUEsegTC3Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\quiz-app\\QuizAPI\\QuizAPI\\QuizAPI.csproj",
   "expectedPackageFiles": [
@@ -116,6 +116,8 @@
     "C:\\Users\\kifle\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\kifle\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\kifle\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\kifle\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",
+    "C:\\Users\\kifle\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.8\\npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
     "C:\\Users\\kifle\\.nuget\\packages\\nuget.common\\6.3.1\\nuget.common.6.3.1.nupkg.sha512",
     "C:\\Users\\kifle\\.nuget\\packages\\nuget.configuration\\6.3.1\\nuget.configuration.6.3.1.nupkg.sha512",
     "C:\\Users\\kifle\\.nuget\\packages\\nuget.dependencyresolver.core\\6.3.1\\nuget.dependencyresolver.core.6.3.1.nupkg.sha512",
