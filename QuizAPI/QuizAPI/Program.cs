@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using QuizAPI.Models;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<QuizDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+//builder.Services.AddDbContext<QuizDbContext>(options =>
+//options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+
+builder.Services.AddEntityFrameworkNpgsql().AddDbContext<QuizDbContext>(opt =>
+        opt.UseNpgsql(builder.Configuration.GetConnectionString("DevConnection")));
 
 var app = builder.Build();
 
