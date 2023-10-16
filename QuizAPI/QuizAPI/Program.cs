@@ -21,7 +21,7 @@ builder.Services.AddEntityFrameworkNpgsql().AddDbContext<QuizDbContext>(opt =>
 var app = builder.Build();
 
 app.UseCors(options =>
-options.WithOrigins("http://localhost:3000")
+options.WithOrigins("https://quiz-app-2w0q.onrender.com/")
 .AllowAnyMethod()
 .AllowAnyHeader());
 
