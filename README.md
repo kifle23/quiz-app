@@ -14,7 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     <!-- - [Key Features](#key-features) -->
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -48,6 +48,7 @@
     <li>Entity Framework Core</li>
     <li>PostgreSQL hosted on ElephantSql/If interested for Microsoft® SQL Server® 2022 Express check feature branch</li>
     <li>Docker</li>
+    <li>Render for front and backend deployment</li>
   </ul>
 </details>
 
@@ -71,13 +72,13 @@ The app consists of three pages:
 - **feature 1.** -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+LIVE DEMO
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://quiz-app-2w0q.onrender.com/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
