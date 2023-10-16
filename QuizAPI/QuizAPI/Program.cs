@@ -25,13 +25,13 @@ options.WithOrigins("http://localhost:3000")
 .AllowAnyMethod()
 .AllowAnyHeader());
 
-var imagesDirectoryPath = Path.Combine(AppContext.BaseDirectory, "Images");
-
 app.UseStaticFiles(new StaticFileOptions
 {
-    FileProvider = new PhysicalFileProvider(imagesDirectoryPath),
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.ContentRootPath, "Images")),
     RequestPath = "/Images"
 });
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
