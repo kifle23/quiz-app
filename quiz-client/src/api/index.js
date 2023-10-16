@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const BASE_URL = 'http://localhost:32770/';
+export const BASE_URL = 'https://quiz-app-pxs5.onrender.com/';
 
 export const ENDPOINTS = {
     participant: 'participants',
