@@ -47,6 +47,7 @@
     <li>Asp.Net Core API</li>
     <li>Entity Framework Core</li>
     <li>PostgreSQL hosted on ElephantSql/If interested for Microsoft® SQL Server® 2022 Express check feature branch</li>
+    <li>Docker</li>
   </ul>
 </details>
 
