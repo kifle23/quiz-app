@@ -25,13 +25,13 @@ options.WithOrigins("http://localhost:3000")
 .AllowAnyMethod()
 .AllowAnyHeader());
 
+var imagesDirectoryPath = Path.Combine(builder.Environment.ContentRootPath, "..", "Images");
+
 app.UseStaticFiles(new StaticFileOptions
 {
-    FileProvider = new PhysicalFileProvider(
-        Path.Combine(builder.Environment.ContentRootPath, "Images")),
-    RequestPath = "QuizAPI/Images"
+    FileProvider = new PhysicalFileProvider(imagesDirectoryPath),
+    RequestPath = "/Images"
 });
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
